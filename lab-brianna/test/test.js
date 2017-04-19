@@ -11,7 +11,7 @@ describe('parcel', function() {
       assert.equal(bucket.size, 'Small');
     });
     let box = new parcel.DietCookie('Chocolate', 'Medium');
-    it('should return an array of three different objects', function() {
+    it('should return an array', function() {
       assert.equal(box.type, 'Chocolate');
       assert.equal(box.size, 'Medium');
     });
