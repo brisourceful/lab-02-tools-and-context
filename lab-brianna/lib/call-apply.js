@@ -12,8 +12,8 @@ exports.MegaCookie = function (type, size){
   this.forBrianna = true;
 };
 
-exports.DietCookie = function ([]) {
-  exports.Cookie.apply(this, arr);
+exports.DietCookie = function (type, size) {
+  exports.Cookie.apply(this, [type, size]);
   this.forWeightWatchers = true;
 };
 

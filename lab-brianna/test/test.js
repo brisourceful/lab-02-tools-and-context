@@ -10,10 +10,10 @@ describe('parcel', function() {
       assert.equal(bucket.type, 'Snickerdoodle');
       assert.equal(bucket.size, 'Small');
     });
-    let cookieArray = ['oreo', 'choclate', 'vanilla'];
-    let box = new parcel.DietCookie(cookieArray);
+    let box = new parcel.DietCookie('Chocolate', 'Medium');
     it('should return an array of three different objects', function() {
-      assert.equal(box.)
-    })
+      assert.equal(box.type, 'Chocolate');
+      assert.equal(box.size, 'Medium');
+    });
   });
 });
