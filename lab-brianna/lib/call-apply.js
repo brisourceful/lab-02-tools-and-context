@@ -16,10 +16,3 @@ exports.DietCookie = function (type, size) {
   exports.Cookie.apply(this, [type, size]);
   this.forWeightWatchers = true;
 };
-
-// exports.places = {
-//   countries: [],
-//   addToCountries: function(countries) {
-//     Array.prototype.push.apply(this.countries, countries);
-//   },
-// };
