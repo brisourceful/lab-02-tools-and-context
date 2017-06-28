@@ -1,0 +1,37 @@
+{
+  "name": "lab-brianna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node index.js",
+    "lint": "eslint ./lib",
+    "build": "npm run lint && npm run test",
+    "install": "npm install"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brisourceful/lab-02-tools-and-context.git"
+  },
+  "keywords": [
+    "mocha",
+    "node",
+    "git",
+    "JSON"
+  ],
+  "author": "Brianna Burrows",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brisourceful/lab-02-tools-and-context/issues"
+  },
+  "homepage": "https://github.com/brisourceful/lab-02-tools-and-context#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0"
+  }
+}
