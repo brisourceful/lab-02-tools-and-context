@@ -10,7 +10,7 @@
     "test": "./node_modules/mocha/bin/mocha",
     "start": "node index.js",
     "lint": "eslint ./lib",
-    "build": "npm run lint && npm run test",
+    "build": "npm run lint && npm run test"
   },
 
   "repository": {
