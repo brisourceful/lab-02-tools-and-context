@@ -11,7 +11,6 @@
     "start": "node index.js",
     "lint": "eslint ./lib",
     "build": "npm run lint && npm run test",
-    "install": "npm install"
   },
 
   "repository": {
